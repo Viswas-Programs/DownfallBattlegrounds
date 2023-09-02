@@ -1,8 +1,14 @@
-<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.83-alpha">
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.83-alpha">
   <PropertyGroup>
     <!-- Command to run on project build -->
-    <BuildCommand></BuildCommand>
+    <BuildCommand>
+    </BuildCommand>
     <!-- Command to run on project clean -->
-    <CleanCommand></CleanCommand>
+    <CleanCommand>
+    </CleanCommand>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="server\src\utils\" />
+    <Folder Include="server\src\obstacles\" />
+  </ItemGroup>
 </Project>
