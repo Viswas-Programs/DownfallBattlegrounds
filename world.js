@@ -4,6 +4,7 @@ export class World {
     obstacles: [] = [];
     loot: [] = [];
     entities: [] = [];
+    layers: number = 0;
 
     constructor()
     addLoot(item) {

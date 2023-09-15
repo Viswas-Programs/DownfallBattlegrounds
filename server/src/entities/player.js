@@ -2,7 +2,7 @@ import {Inventory, MinInventory } from "../objectDefenitions/inventory"
 export class Player {
 this.username: string;
 this.id: number;
-this.zIndex = 9;
+this.zIndex: Number = 9;
 this.skin: string;
 this.graveImage: string;
 this.inventory: Inventory || MinInventory;
